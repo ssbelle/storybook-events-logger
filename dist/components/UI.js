@@ -3,13 +3,9 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.H3 = exports.Textarea = exports.Input = exports.Button = exports.Flex = exports.Card = exports.InspectorContainer = exports.Counter = exports.Wrapper = exports.Action = void 0;
+exports.H3 = exports.Textarea = exports.Input = exports.Button = exports.Flex = exports.Card = exports.InspectorContainer = exports.Wrapper = exports.Action = void 0;
 
 var _styled = _interopRequireDefault(require("@emotion/styled"));
-
-var _reactInspector = _interopRequireDefault(require("react-inspector"));
-
-var _theming = require("@storybook/theming");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -96,28 +92,9 @@ var Action = _styled["default"].div({
 
 exports.Action = Action;
 
-var Wrapper = _styled["default"].section(_templateObject()); // export const ThemedInspector = withTheme(({ theme, ...props }) => (
-//   <Inspector theme={theme.addonActionsTheme || 'chromeLight'} {...props} />
-// ));
-
+var Wrapper = _styled["default"].section(_templateObject());
 
 exports.Wrapper = Wrapper;
-
-var Counter = _styled["default"].div < {} > function (_ref) {
-  var theme = _ref.theme;
-  return {
-    backgroundColor: rgba(255, 255, 255, 0.5),
-    color: theme.color.inverseText,
-    fontSize: theme.typography.size.s1,
-    fontWeight: theme.typography.weight.bold,
-    lineHeight: 1,
-    padding: '1px 5px',
-    borderRadius: '20px',
-    margin: '2px 0px'
-  };
-};
-
-exports.Counter = Counter;
 
 var InspectorContainer = _styled["default"].div({
   flex: 1,

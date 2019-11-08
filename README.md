@@ -1,6 +1,6 @@
 # Custom Storybook Events Logger
 
-Storybook Events Logger can be used to display event and custom event data payloads.
+Storybook Events Logger can be used to display event and custom event data payloads. This package is based on @storybook/addon-actions and Storybook/Addon Console. 
 
 ## Getting Started
 

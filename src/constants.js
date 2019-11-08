@@ -1,4 +1,4 @@
-export const ADDON_ID = 'eventsLogger';
+export const ADDON_ID = 'events-logger';
 export const PANEL_ID = `${ADDON_ID}/panel`;
 
 export const EMIT_DELETE = `${ADDON_ID}/emitDelete`;

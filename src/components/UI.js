@@ -1,6 +1,4 @@
 import styled from '@emotion/styled';
-import Inspector from 'react-inspector';
-import { withTheme, Theme } from '@storybook/theming';
 
 export const Action = styled.div({
   display: 'flex',
