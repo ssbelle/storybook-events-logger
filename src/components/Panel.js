@@ -45,11 +45,11 @@ export class Panel extends React.Component {
     }
 
     logger = (e)  => {
-       this.setState((prevState) => {
-         const eventsToDisplay = [...prevState.eventsToDisplay];
-         eventsToDisplay.push(e);
-         return {eventsToDisplay};
-     })
+      this.setState((prevState) => {
+        const eventsToDisplay = [...prevState.eventsToDisplay];
+        eventsToDisplay.push(e);
+        return {eventsToDisplay};
+      })
     }
 
     render() {

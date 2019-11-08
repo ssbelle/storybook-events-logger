@@ -1,6 +1,4 @@
 import styled from '@emotion/styled';
-// import { styled } from '@storybook/theming';
-// import { opacify } from 'polished';
 import Inspector from 'react-inspector';
 import { withTheme, Theme } from '@storybook/theming';
 
@@ -17,22 +15,6 @@ export const Wrapper = styled.section`
   display: flex,
   flex-direction: column
 `;
-
-// export const ThemedInspector = withTheme(({ theme, ...props }) => (
-//   <Inspector theme={theme.addonActionsTheme || 'chromeLight'} {...props} />
-// ));
-
-
-export const Counter = styled.div<{}>(({ theme }) => ({
-  backgroundColor: rgba(255, 255, 255, 0.5),
-  color: theme.color.inverseText,
-  fontSize: theme.typography.size.s1,
-  fontWeight: theme.typography.weight.bold,
-  lineHeight: 1,
-  padding: '1px 5px',
-  borderRadius: '20px',
-  margin: '2px 0px',
-}));
 
 export const InspectorContainer = styled.div({
   flex: 1,
