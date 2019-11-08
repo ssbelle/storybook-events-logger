@@ -1,6 +1,6 @@
 {
   "name": "storybook-events-logger",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A custom react events logger that renders as a storybook panel",
   "main": "register.js",
   "browser": "index.js",
