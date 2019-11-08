@@ -1,0 +1,7 @@
+{
+    "verbose": true,
+    "ignore": ["dist/*", "node_modules/*"],
+    "execMap": {
+      "js": "npm run build"
+    }
+  }

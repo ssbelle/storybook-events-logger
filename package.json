@@ -1,0 +1,30 @@
+{
+  "name": "storybook-events-logger",
+  "version": "2.0.0",
+  "description": "A custom react events logger that renders as a storybook panel",
+  "main": "register.js",
+  "browser": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "author": "ssbelle",
+  "license": "ISC",
+  "dependencies": {
+    "@storybook/addons": "^5.1.9",
+    "@storybook/core-events": "^5.1.9",
+    "@storybook/theming": "^5.2.5",
+    "react": "^16.8.6",
+    "react-inspector": "^4.0.0",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/helper-annotate-as-pure": "^7.0.0",
+    "@babel/helper-builder-react-jsx": "^7.3.0",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
