@@ -1,6 +1,6 @@
 {
   "name": "storybook-events-logger",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A custom react events logger that renders as a storybook panel",
   "main": "register.js",
   "browser": "index.js",
@@ -11,8 +11,10 @@
   "license": "MIT",
   "dependencies": {
     "@storybook/addons": "^5.1.9",
+    "@storybook/core": "^5.2.6",
     "@storybook/core-events": "^5.1.9",
     "@storybook/theming": "^5.2.5",
+    "babel-loader": "^7.0.0",
     "react": "^16.8.6",
     "react-inspector": "^4.0.0",
     "uuid": "3.3.2"
